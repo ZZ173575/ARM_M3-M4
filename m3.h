@@ -21,7 +21,7 @@ typedef struct
 #define GPIOC_BASE (APB2PERIPH_BASE + 0x1000)
 #define GPIOD_BASE (APB2PERIPH_BASE + 0x1400)
 #define GPIOE_BASE (APB2PERIPH_BASE + 0x1800)
-
+// peripher address point to struct ; 
 #define GPIOA  ((GPIO_TypeDef*)GPIOA_BASE )
 
 #define GPIOB  ((GPIO_TypeDef*)GPIOB_BASE )
